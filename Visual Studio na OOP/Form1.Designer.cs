@@ -28,35 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
+            btnHi = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnHi
             // 
-            button1.Location = new Point(349, 84);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 0;
-            button1.Text = "test";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(397, 194);
-            button2.Name = "button2";
-            button2.Size = new Size(140, 29);
-            button2.TabIndex = 1;
-            button2.Text = "NatanielTest";
-            button2.UseVisualStyleBackColor = true;
+            btnHi.Location = new Point(358, 190);
+            btnHi.Name = "btnHi";
+            btnHi.Size = new Size(75, 23);
+            btnHi.TabIndex = 0;
+            btnHi.Text = "Hi";
+            btnHi.UseVisualStyleBackColor = true;
+            btnHi.Click += btnHi_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(836, 504);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnHi);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -64,7 +54,6 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Button btnHi;
     }
 }
