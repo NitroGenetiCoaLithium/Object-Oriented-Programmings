@@ -6,5 +6,10 @@ namespace Visual_Studio_na_OOP
         {
             InitializeComponent();
         }
+
+        private void btnHi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
